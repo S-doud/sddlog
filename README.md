@@ -16,7 +16,7 @@ a simple log for Linux and Windows
 # use
 
 
-```
+```cpp
 #include "../src/log.h"
 
 int main(){
@@ -39,7 +39,7 @@ int main(){
 }
 ```
 
-```
+```cpp
 #include "../src/log.h"
 #include <thread>
 
