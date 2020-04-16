@@ -19,8 +19,9 @@ namespace sdd {
 		logging_->append(msg, len);
 	}
 
-	Log::Log(std::string fileName,int line)
+	Log::Log(std::string fileName, int line)
 		:fileName_(fileName),
+		line_(line),
 		stream_()
 	{
 		getTime();
@@ -28,6 +29,7 @@ namespace sdd {
 
 	Log::~Log()
 	{
+		stream() << "--" << fileName_ << " : " << line_ << "--\n";
 		const Buffers<smallsize>& buf(stream().buffer());
 		output(buf.data(), buf.length());
 		output("\n", 1);

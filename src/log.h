@@ -8,6 +8,7 @@ namespace sdd {
 	{
 	private:
 		std::string fileName_;
+		int line_;
 		LogStream stream_;
 		
 
