@@ -14,7 +14,7 @@ a simple log for Linux and Windows
   单线程写入100w条日志需1-2秒，4线程每条线程写入100w条日志需12-13秒（每条日志70字节左右）
   
 # use
-
+、、、
 #include "../src/log.h"
 
 int main(){
@@ -35,8 +35,9 @@ int main(){
   LOG << "fddsa" << 'c' << 0 << 3.666 << string("This is a string");
 
 }
+、、、
 
-
+、、、
 #include "../src/log.h"
 #include <thread>
 
@@ -60,4 +61,4 @@ int main(){
 	tmp4.join();
 
 }
-
+、、、
