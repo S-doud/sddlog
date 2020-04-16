@@ -1,6 +1,6 @@
 # sddlog
 
-a simple log library for Linux and Windows
+a simple log for Linux and Windows
 (learn from muduo)
 
 # features
