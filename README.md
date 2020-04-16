@@ -13,4 +13,4 @@ a simple log for Linux and Windows
 
   单线程写入100w条日志需1-2秒，4线程每条线程写入100w条日志需12-13秒（每条日志70字节左右）
   
-# how to use
+# use
